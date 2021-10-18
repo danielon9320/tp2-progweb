@@ -19,14 +19,3 @@ tr:hover {
   background-color: #ccc9c9;
 }
 
-.mobile-hidden{
-    display:none;
-}
-
-/*Responsive rules - Breakpoints*/
-@media (min-width: 576px) and (max-width: 767px) {
-    .mobile-hidden{
-        display: block;
-    }
-    
-}

@@ -27,8 +27,10 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    
-    <title>Document</title>
+    <!--FAVICON-->
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico" />
+
+    <title>Tienda de Café</title>
   </head>
   <body>
     <!--START NAVBAR-->
@@ -73,7 +75,9 @@
     <!--BREADCRUMB-->
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home pr-2"></i>Inicio</a></li>
+        <li class="breadcrumb-item">
+          <a href="index.html"><i class="fas fa-home pr-2"></i>Inicio</a>
+        </li>
         <li class="breadcrumb-item active" aria-current="page" id="breadcrumb">
           Productos
         </li>
@@ -101,7 +105,7 @@
           <tr class="odd">
             <th scope="col">Codigo</th>
             <th scope="col">Nombre</th>
-            <th scope="col" class="hidden-mobile">Descripcion</th>
+            <th scope="col" id="description">Descripcion</th>
             <th scope="col">Precio</th>
           </tr>
         </thead>
@@ -109,7 +113,7 @@
           <tr>
             <th scope="row">1</th>
             <td>Latte</td>
-            <td>Otto</td>
+            <td id="description">Otto</td>
             <td>$300</td>
           </tr>
           <tr class="odd">
@@ -192,7 +196,7 @@
             <td>Thornton</td>
             <td>$350</td>
           </tr>
-          <tr class="odd"> 
+          <tr class="odd">
             <th scope="row">6</th>
             <td>Capuccino</td>
             <td>Thornton</td>
@@ -212,39 +216,42 @@
 
     <!--FOOTER-->
     <footer class="text-light bg-dark py-4 text-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-4 text-center">
-              <a href="index.html" class="text-decoration-none">
-                <img src="img/logo.png" alt="Logo" width="30" height="30">
-                <p class="lead text-decoration-none text-light">Tienda de Café</p>
-              </a>
-            </div>
-            <div class="col-sm-12 col-md-4">
-              <p><strong>Informacion</strong></p>
-              <p>Brandan, Agostina.</p>
-              <p>Cabrera, Belén.</p>
-              <p>Conde, Jimena.</p>
-              <p>López Sardi, Daniel.</p>
-            </div>
-            <div class="col-sm-12 col-md-4">
-              <p><strong>Encontranos En:</strong></p>
-              <a href="#" class="text-decoration-none text-light">
-                <i class="fab fa-facebook-f fa-2x p-2 facebook"></i>
-              </a>
-              <a href="#" class="text-decoration-none text-light">
-                <i class="fab fa-twitter fa-2x p-2 twitter"></i>
-              </a>
-              <a href="#" class="text-decoration-none text-light">
-                <i class="fab fa-instagram fa-2x p-2 instagram"></i>
-              </a>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 text-center">
+            <a href="index.html" class="text-decoration-none">
+              <img src="img/logo.png" alt="Logo" width="30" height="30" />
+              <p class="lead text-decoration-none text-light">Tienda de Café</p>
+            </a>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <p><strong>Informacion</strong></p>
+            <p>Brandan, Agostina.</p>
+            <p>Cabrera, Belén.</p>
+            <p>Conde, Jimena.</p>
+            <p>López Sardi, Daniel.</p>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <p><strong>Encontranos En:</strong></p>
+            <a href="#" class="text-decoration-none text-light">
+              <i class="fab fa-facebook-f fa-2x p-2 facebook"></i>
+            </a>
+            <a href="#" class="text-decoration-none text-light">
+              <i class="fab fa-twitter fa-2x p-2 twitter"></i>
+            </a>
+            <a href="#" class="text-decoration-none text-light">
+              <i class="fab fa-instagram fa-2x p-2 instagram"></i>
+            </a>
           </div>
         </div>
-        <div class="mt-2">
-          <p class="text-center">&copy; Todos los derechos reservados al Grupo 10 - Comision 3K4 - Año 2021</p>
-        </div>
-      </footer>
+      </div>
+      <div class="mt-2">
+        <p class="text-center">
+          &copy; Todos los derechos reservados al Grupo 10 - Comision 3K4 - Año
+          2021
+        </p>
+      </div>
+    </footer>
     <!--FOOTER-->
   </body>
   <script
